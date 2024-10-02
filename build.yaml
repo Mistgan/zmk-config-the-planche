@@ -19,6 +19,6 @@
 ---
 include:
   - board: nice_nano_v1
-    shield: ThePlanche_left
+    shield: corne_left
   - board: nice_nano_v1
-    shield: ThePlanche_right
+    shield: corne_right
