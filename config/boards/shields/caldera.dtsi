@@ -31,11 +31,11 @@ RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5)                 RC(5,11) RC(5,10
         wakeup-source;
         diode-direction = "col2row";
         row-gpios
-            = <&pro_micro 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row C from the schematic file
-            , <&pro_micro 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row D from the schematic file
-            , <&pro_micro 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row E from the schematic file
-            , <&pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row A from the schematic file
-            , <&pro_micro 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row B from the schematic file
+            = <&pro_micro 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row A from the schematic file
+            , <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row B from the schematic file
+            , <&pro_micro 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row C from the schematic file
+            , <&pro_micro 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row D from the schematic file
+            , <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row E from the schematic file
             ;
     };
 };
